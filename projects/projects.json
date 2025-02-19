@@ -1,0 +1,20 @@
+{
+    "projects": [
+        {
+            "filename": "project1",
+            "name": "Project 1"
+        },
+        {
+            "filename": "project2",
+            "name": "Project 2"
+        },
+        {
+            "filename": "project3",
+            "name": "Project 3"
+        },
+        {
+            "filename": "project4",
+            "name": "Project 3"
+        }
+    ]
+}
