@@ -4,37 +4,40 @@
     "description": "Personal website project",
     "main": "index.js",
     "scripts": {
-        "start": "webpack serve --mode development --open",
-        "build": "webpack --mode production",
-        "test": "echo \"Error: no test specified\" && exit 1"
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build",
+      "start": "webpack serve --mode development --open",
+      "build": "webpack --mode production",
+      "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-        "type": "git",
-        "url": "git+https://github.com/yourusername/personal_web.git"
+      "type": "git",
+      "url": "git+https://github.com/kevinliu31/personal_web.git"
     },
-    "author": "Your Name",
+    "author": "Kevin Liu",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/yourusername/personal_web/issues"
+      "url": "https://github.com/kevinliu31/personal_web/issues"
     },
-    "homepage": "https://github.com/yourusername/personal_web#readme",
+    "homepage": "https://kevinliu31.github.io/personal_web/",
     "dependencies": {
-        "autoprefixer": "^10.4.20",
-        "postcss": "^8.5.2",
-        "react": "^18.0.0",
-        "react-dom": "^18.0.0",
-        "tailwindcss": "^4.0.7"
+      "autoprefixer": "^10.4.20",
+      "gh-pages": "^6.3.0",
+      "postcss": "^8.5.2",
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0",
+      "tailwindcss": "^4.0.7"
     },
     "devDependencies": {
-        "@babel/core": "^7.16.0",
-        "@babel/preset-env": "^7.16.0",
-        "@babel/preset-react": "^7.16.0",
-        "babel-loader": "^8.2.3",
-        "css-loader": "^6.5.1",
-        "html-webpack-plugin": "^5.5.0",
-        "style-loader": "^3.3.1",
-        "webpack": "^5.64.4",
-        "webpack-cli": "^4.9.1",
-        "webpack-dev-server": "^4.6.0"
+      "@babel/core": "^7.16.0",
+      "@babel/preset-env": "^7.16.0",
+      "@babel/preset-react": "^7.16.0",
+      "babel-loader": "^8.2.3",
+      "css-loader": "^6.5.1",
+      "html-webpack-plugin": "^5.5.0",
+      "style-loader": "^3.3.1",
+      "webpack": "^5.64.4",
+      "webpack-cli": "^4.9.1",
+      "webpack-dev-server": "^4.6.0"
     }
-}
+  }
