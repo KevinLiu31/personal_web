@@ -1,7 +1,7 @@
 {
     "title": "MineSweeper Multiplayer",
     "description": "A deep dive into Node.js, Express, and WebSockets, this project transforms the classic Minesweeper game into an engaging multiplayer experience. It features a lobby system, chat functionality, synchronized game boards for all players, and real-time progress tracking of your opponent.",
-    "imgUrl": ,
+    "imgUrl": "",
     "videoUrl": "",
     "githubLink": "https://github.com/KevinLiu31/Mineweeper",
     "techStack": "ExpressJS, NodeJS, PostgresSQL, Socket.io"
