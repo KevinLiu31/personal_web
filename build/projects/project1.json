@@ -1,0 +1,9 @@
+{
+    "title": "Classroom in VR",
+    "description": "An exploration into creating virtual reality application and Unreal engine. This project consists of a simulation of a computer labaratory in VR, with interactable objects such as computers, lights, writable whiteboards, printers, fire Alarms, and trash. It also features ambient noise and a protect the pylon type mini-game.",
+    "imgUrl": "",
+    "videoUrl": "https://www.youtube.com/embed/EPbTNA2fU0g",
+    "githubLink": "https://gitlab.com/apatney/eecs440-p1",
+    "techStack": "Unreal Engine, CPP, Blueprints, VR"
+
+}

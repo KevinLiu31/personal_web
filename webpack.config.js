@@ -1,12 +1,13 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: './index.js',
   output: {
     path: path.resolve(__dirname, 'build'), // Ensure the output directory is 'build'
     filename: 'bundle.js',
-    publicPath: '/',
+    publicPath: '/personal_web/', // Set the correct public path
   },
   module: {
     rules: [
@@ -24,6 +25,18 @@ module.exports = {
         test: /\.css$/,
         use: ['style-loader', 'css-loader', 'postcss-loader'],
       },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[path][name].[ext]',
+              context: 'src', // prevent display of src/ in filename
+            },
+          },
+        ],
+      },
     ],
   },
   resolve: {
@@ -32,6 +45,12 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: './index.html',
+    }),
+    new CopyWebpackPlugin({
+      patterns: [
+        { from: 'projects', to: 'projects' },
+        { from: 'images', to: 'images' },
+      ],
     }),
   ],
   devServer: {
