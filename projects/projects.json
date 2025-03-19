@@ -1,9 +1,24 @@
 {
-    "title": "A2GO",
-    "description": "An exploration into creating Augmented reality application and the Unity engine. This project consists of a pokemon go style game where players go around collecting seeds, planting trees, and generating coins in the form of leaves.",
-    "imgUrl": "",
-    "videoUrl": "https://www.youtube.com/embed/G9SCoTpseC4",
-    "githubLink": "https://gitlab.com/apatney/eecs440-p2",
-    "techStack": "Unity, C#, AR"
-
+"projects": [
+    {
+        "filename": "project1",
+        "name": "Project 1"
+    },
+    {
+        "filename": "project2",
+        "name": "Project 2"
+    },
+    {
+        "filename": "project3",
+        "name": "Project 3"
+    },
+    {
+        "filename": "project4",
+        "name": "Project 4"
+    },
+    {
+        "filename": "project5",
+        "name": "Project 5"
+    }
+]
 }
