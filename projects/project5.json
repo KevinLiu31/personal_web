@@ -1,9 +1,9 @@
 {
-    "title": "MineSweeper Multiplayer",
-    "description": "A deep dive into Node.js, Express, and WebSockets, this project transforms the classic Minesweeper game into an engaging multiplayer experience. It features a lobby system, chat functionality, synchronized game boards for all players, and real-time progress tracking of your opponent.",
-    "imgUrl": ["minesweeper.png"],
-    "videoUrl": "",
-    "githubLink": "https://github.com/KevinLiu31/Mineweeper",
-    "techStack": "ExpressJS, NodeJS, PostgresSQL, Socket.io"
+    "title": "A2GO",
+    "description": "An exploration into creating Augmented reality application and the Unity engine. This project consists of a pokemon go style game where players go around collecting seeds, planting trees, and generating coins in the form of leaves.",
+    "imgUrl": "",
+    "videoUrl": "https://www.youtube.com/embed/EPbTNA2fU0g",
+    "githubLink": "https://gitlab.com/apatney/eecs440-p2",
+    "techStack": "Unity, C#, AR"
 
 }
