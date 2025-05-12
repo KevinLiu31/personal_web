@@ -1,0 +1,9 @@
+{
+    "title": "ExpressAR",
+    "description": "An application developed for children that are struggling with emotional recognition. The application uses augmented reality to help children learn how to identify and express their emotions. The application consists of a series of mini-games that help children learn how to identify and express their emotions. The application is designed to be used in a classroom setting, but can also be used at home.",
+    "imgUrl": "",
+    "videoUrl": "https://www.youtube.com/embed/JcL0hvpEtNI?si=V-ldPJ3o5p5QJQg1",
+    "githubLink": "https://440expressar.wixsite.com/express-ar",
+    "techStack": "Unity, C#, AR"
+
+}

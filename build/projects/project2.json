@@ -4,6 +4,6 @@
     "imgUrl": ["robot.PNG", "CAD.png"],
     "videoUrl": "",
     "githubLink": "",
-    "techStack": "Python, ROS2"
+    "techStack": "Python, ROS2, CAN, Odrive, Ubuntu, Gazebo"
 
 }

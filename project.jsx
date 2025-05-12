@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 export default function Project({ filename }) {
     const [videoUrl, setVideoUrl] = useState("");
-    const [title, setTitle] = useState("");
+    const [title, setTitle] = useState([]);
     const [imgUrl, setImgUrl] = useState([]);
     const [description, setDescription] = useState("");
     const [techStack, setTechStack] = useState("");
