@@ -19,7 +19,6 @@ export default function Project({ filename }) {
                 setImgUrl(data.imgUrl);
                 setDescription(data.description);
                 setTechStack(data.techStack);
-                //TODOchange to linkname:link dictionary.
                 setLink(data.Link);
                 setVideoUrl(data.videoUrl);
             })
@@ -83,7 +82,7 @@ export default function Project({ filename }) {
                 </div>
                 <p className="text-sm">{description}</p>
                 <p className="text-sm">{techStack}</p>
-                {Object.keys(Link).length !== 0 && (
+                {Object.keys(Link).length > 0 && (
                     Object.entries(Link).map(([key, value]) => (
                         <a
                             key={key}
