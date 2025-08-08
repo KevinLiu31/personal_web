@@ -2,8 +2,8 @@
     "title": "Atombot robot",
     "description": "A quadpedal wheeled robot that is being developed at the University of Michigan. The dog features multiple sensors on the chasis, three motors on each leg to drive kinematics and a motor to drive the wheel, powered currently by two rasberry pi 5. The goal of the robot is to be able to walk up stairs, run, jump, and navigate through a more complex surrounding, with the final goal of being able to behave in swarms.",
     "imgUrl": ["robot.PNG", "CAD.png"],
-    "videoUrl": "",
-    "githubLink": "",
+    "videoUrl": [],
+    "Link": {},
     "techStack": "Python, ROS2"
 
 }
