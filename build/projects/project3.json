@@ -3,7 +3,7 @@
     "description": "An artillery game similar to that of the classic worms series. The game features destructable terrain, multiple weapons, and a map creation menu. The game was developed in Processing as deep dive into the usage of class and object orientated programming in Java.",
     "imgUrl": ["snake1.png", "snake2.png","snake3.png","snake4.png","snake5.png","snake6.png"],
     "videoUrl": [],
-    "Link": "https://github.com/KevinLiu31/Snakes-Game",
+    "Link": {"Github":"https://github.com/KevinLiu31/Snakes-Game"},
     "techStack": "Java, Processing"
 
 }
